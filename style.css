@@ -1,0 +1,125 @@
+body{
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif; 
+}
+
+container{
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+.logo-side{
+    display: flex;
+    text-align: center;
+    background: linear-gradient(to right, white, white, #A5CC82, #45B649);
+    
+}
+
+.logo-side h2{
+    color: white;
+    margin: auto;
+    letter-spacing: .2rem;
+    
+}
+
+.nav-bar{
+    background: whitesmoke;
+    opacity: .8;
+    padding: .5rem;
+    box-shadow: .5rem .5rem 3rem #333;;
+}
+
+.nav-bar ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar li{
+    color: #333;
+    font-weight: 800;
+    list-style: none;
+    display: inline-block;
+    letter-spacing: .1rem;
+    padding-left: 5rem;
+    padding: 1rem;
+    border-left: 3px solid #333;
+    transition: all .5s ease-in-out;
+    
+}
+
+.nav-bar li:hover{
+    cursor: pointer;
+    color: #45B649;
+    transform: scale(1.1);
+    border-left: 3px solid #ccc;
+}
+
+[class*="s-"]{
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; 
+}
+
+[class*="s-"] h2{
+  text-align: center;
+    letter-spacing: .2rem;
+}
+
+.s-about-us{
+    height: 90vh;
+    background-image: url(photo/leaf-rain.jpg);
+    background-attachment: fixed;
+    
+}
+
+.main-text {
+    background: rgba(2,2,2,.5);
+    padding: 1rem;
+    margin: 0;
+    color: white;
+    text-align: center;
+    
+}
+
+.s-firm{
+    height: 100vh;
+    background: whitesmoke;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.firm-cont1{
+ display: flex;
+ justify-content: center;
+ margin: 2rem;
+}
+
+
+.s-firm p{
+    padding: 0 2rem;
+}
+
+.s-firm img{
+    margin: 2rem 0;
+    width: 640px;
+    height: 355px;
+}
+
+.firm-cont2{
+ display: flex;
+ justify-content: center;
+ 
+}
+
+
+
+
+
+
+
+
+
