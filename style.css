@@ -70,9 +70,10 @@ container{
 }
 
 .s-about-us{
-    height: 90vh;
+    height: 100vh;
     background-image: url(photo/leaf-rain.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     
 }
 
